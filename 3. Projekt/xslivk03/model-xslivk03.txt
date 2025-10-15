@@ -1,0 +1,43 @@
+
+attributes {
+    oblacnost : polojasno oblacno zatazeno
+    srazky : slabe vydatne
+    teplota : nizka stredni vysoka
+    vlhkost : mala velka
+}
+
+classes {
+    Q
+    R
+    S
+}
+
+objects {
+    1 S oblacno vydatne stredni mala	1
+    2 Q oblacno vydatne vysoka mala		2
+    3 Q polojasno slabe stredni mala	3
+    4 Q zatazeno slabe stredni velka	4
+    5 Q oblacno slabe stredni velka		5
+    6 S oblacno vydatne nizka velka		6
+    7 R oblacno vydatne nizka mala		7
+    8 Q oblacno slabe stredni mala		8
+    9 Q oblacno slabe nizka mala		9
+    10 R polojasno vydatne nizka velka	10
+    11 S oblacno slabe nizka velka		11
+    12 Q zatazeno vydatne nizka velka	12
+}
+oblacnost;srazky;teplota;vlhkost;classes
+oblacno;vydatne;vysoka;mala;Q
+
+oblacno;vydatne;stredni;mala;S
+polojasno;slabe;stredni;mala;Q
+zatazeno;slabe;stredni;velka;Q
+oblacno;slabe;stredni;velka;Q
+oblacno;slabe;stredni;mala;Q
+
+oblacno;slabe;nizka;velka;S
+oblacno;vydatne;nizka;velka;S
+oblacno;vydatne;nizka;mala;R
+oblacno;slabe;nizka;mala;Q
+polojasno;vydatne;nizka;velka;R
+zatazeno;vydatne;nizka;velka;Q
